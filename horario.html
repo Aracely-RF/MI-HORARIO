@@ -1,0 +1,519 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Horario</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #fff; }
+    h1 { text-align: center; background: #ffb6c1; padding: 10px; margin: 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 10px; }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 5px;
+      height: 40px;
+    }
+    th { background: #ffc0cb; }
+
+    /* Colores personalizados según la imagen */
+    .levantarse { background-color: #ffe0b2; }
+    .desayuno { background-color: #ffe082; }
+    .clases { background-color: #f8bbd0; }
+    .proyectos { background-color: #f48fb1; }
+    .redes { background-color: #b39ddb; }
+    .modelos { background-color: #81d4fa; }
+    .regresion { background-color: #e57373; }
+    .series { background-color: #9575cd; }
+    .supervisado { background-color: #ffccbc; }
+    .gestion { background-color: #f06292; }
+    .almuerzo { background-color: #ffb74d; }
+    .ayuda { background-color: #dcedc8; }
+    .estudio { background-color: #fff59d; }
+    .otras { background-color: #aed581; }
+    .ejercicios { background-color: #ef5350; color: white; }
+    .libre { background-color: #f48fb1; }
+    .trabajo { background-color: #ef9a9a; }
+    .aseo { background-color: #bcaaa4; }
+    .ropa { background-color: #ce93d8; }
+    .camino { background-color: #bcaaa4; }
+    .cena { background-color: #ffb74d; }
+    .dormir { background-color: #d1c4e9; }
+  </style>
+</head>
+<body>
+  <h1>Mi Horario Semanal</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sábado</th>
+        <th>Domingo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>5:00 - 5:30</td>
+  <td class="levantarse" colspan="5">Me levanto y preparación diaria</td>
+  <td class="dormir">Dormir</td>
+  <td class="levantarse">Me levanto y preparación diaria</td>
+</tr>
+
+      <tr><td>5:40-6:00</td><td class="desayuno" colspan="5">Desayuno</td><td class="levantarse">Me levanto y preparación diaria</td><td class="desayuno">Desayuno</td></tr>
+      <tr><td>6:60 -6:40</td><td class="clases" colspan="5">Salir a clases</td><td  class="desayuno">Desayuno</td><td class="camino">Camino al trabajo</td></tr>
+      <tr>
+      <tr>
+  <td>7:00</td>
+  <td class="gestion" rowspan="2">Gestión de Proyectos TICS</td>
+  <td class="gestion" rowspan="2">Gestión de proyectos TICS</td>
+  <td class="series" rowspan="3">Series de Tiempo</td>
+  <td class="supervisado" rowspan="2">Aprendizaje no supervisado</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  <td class="aseo" rowspan="2">Aseo de la casa</td>
+  <td class="trabajo">T</td>
+</tr>
+<tr>
+  <td>8:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="trabajo">R</td>
+</tr>
+    <tr>
+  <td>9:00</td>
+  <td class="redes" rowspan="2">Arquitectura de redes y protocolos</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  
+  <td class="redes" rowspan="2">Arquitectura de redes y protocolos</td>
+  <td class="supervisado" rowspan="3">Aprendizaje no supervisado</td>
+  <td class="otras" rowspan="2">Otras actividades</td>
+  <td class="trabajo">A</td>
+</tr>
+  <tr>
+  <td>10:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+    <td class="regresion" rowspan="3">Regresion lineal y no lineal</td>
+  <td class="trabajo">J</td>
+</tr>
+
+  <tr>
+  <td>11:00</td>
+  <td class="series" rowspan="2">Series de tiempo</td>
+  <td class="regresion" rowspan="2">Regresion lineal y no lineal</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  <td class="ropa" rowspan="2">Lavar ropa</td>
+  <td class="trabajo">O</td>
+</tr>
+  <tr>
+  <td>12:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+    <td class="gestion">Gestión de Proyectos TICS</td>
+  <td class="trabajo">T</td>
+</tr>      
+
+      <tr><td>13:30</td><td class="almuerzo" colspan="6">Almuerzo</td><td class="trabajo">R</td></tr>
+   <tr>
+  <td>14:00</td>
+  <td class="ayuda"rowspan="2">Ayudo a mamá</td>
+  <td class="otras"rowspan="4">Otras actividades</td>
+  <td class="estudio"rowspan="3">Estudio y tareas</td>
+  <td class="ayuda" rowspan="5">Ayudo a mamá</td>
+  <td class="ayuda" rowspan="2">Ayudo a mamá</td>
+  
+  <td class="otras" rowspan="3">Otras actividades</td>
+  <td class="trabajo">A</td>
+</tr>
+  <tr>
+  <td>15:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="trabajo">B</td>
+</tr>  
+
+  <td>16:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="libre">Libre</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">A</td>
+</tr>  
+
+  <td>17:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">J</td>
+</tr>  
+
+  <td>18:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="libre">Libre</td>
+  <td class="ejercicios">Ejercicios</td>
+  <td class="trabajo">O</td>
+</tr>
+
+  <tr><td>19:30</td><td class="cena" colspan="6">Cena</td><td class="trabajo">T</td></tr>
+
+  <td>20:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="libre">Libre</td>
+  <td class="ejercicios">Ejercicios</td>
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="libre"rowspan="3">Libre</td>
+  <td class="trabajo">R</td>
+</tr>  
+
+  <td>21:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">A</td>
+</tr>
+
+      <tr><td>22:00</td><td class="ejercicios">Ejercicios</td><td class="otras">Otras actividades</td><td class="camino">Camino a casa</td><td class="trabajo">B</td></tr>
+      <tr><td>23:00</td><td class="dormir" colspan="7">Aseo personal y dormir</td></tr>
+    </tbody>
+  </table>
+  <script>
+  const stickers = {
+    "levantarse": "⏰",
+    "desayuno": "🍞",
+    "clases": "🎓",
+    "proyectos": "🛠️",
+    "redes": "🌐",
+    "modelos": "📊",
+    "regresion": "📊",
+    "series": "⏱️",
+    "supervisado": "🤖",
+    "no-supervisado": "🤖",
+    "gestion": "🎓",
+    "almuerzo": "🍽️",
+    "cena": "🍽️",
+    "ayuda": "❤️",
+    "estudio": "📚",
+    "otras": "🔧",
+    "ejercicios": "🏋️",
+    "libre": "🧘",
+    "trabajo": "💼",
+    "aseo": "🧹",
+    "ropa": "🧺",
+    "camino": "🚶",
+    "dormir": "😴"
+  };
+
+  document.querySelectorAll("td").forEach(td => {
+    for (const cls in stickers) {
+      if (td.classList.contains(cls)) {
+        td.innerHTML = `${stickers[cls]} ${td.innerHTML}`;
+      }
+    }
+  });
+  // Pide permiso de notificación y registra el Service Worker
+  if ('Notification' in window && navigator.serviceWorker) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        navigator.serviceWorker.register("sw.js");
+      }
+    });
+  }
+
+  // Notificación automática cada minuto si coincide hora y actividad
+  const actividades = [
+    { hora: "05:00", mensaje: "⏰ ¡Levántate y prepárate!" },
+    { hora: "05:40", mensaje: "🍞 Es hora del desayuno" },
+    { hora: "07:00", mensaje: "🎓 Inicia Gestión de Proyectos TICS" },
+    { hora: "13:30", mensaje: "🍽️ Almuerzo" },
+    { hora: "19:30", mensaje: "🍽️ Hora de la cena" },
+    { hora: "23:00", mensaje: "😴 Aseo personal y a dormir" }
+  ];
+
+  function checarHorario() {
+    const ahora = new Date();
+    const horaActual = ahora.toTimeString().substring(0, 5); // Formato HH:MM
+    actividades.forEach(act => {
+      if (act.hora === horaActual) {
+        navigator.serviceWorker.getRegistration().then(reg => {
+          if (reg) {
+            reg.showNotification("Recordatorio", {
+              body: act.mensaje,
+              icon: "https://cdn-icons-png.flaticon.com/512/847/847969.png"
+            });
+          }
+        });
+      }
+    });
+  }
+
+  setInterval(checarHorario, 60000); // Revisa cada minuto
+</script>
+
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Horario</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #fff; }
+    h1 { text-align: center; background: #ffb6c1; padding: 10px; margin: 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 10px; }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 5px;
+      height: 40px;
+    }
+    th { background: #ffc0cb; }
+
+    /* Colores personalizados según la imagen */
+    .levantarse { background-color: #ffe0b2; }
+    .desayuno { background-color: #ffe082; }
+    .clases { background-color: #f8bbd0; }
+    .proyectos { background-color: #f48fb1; }
+    .redes { background-color: #b39ddb; }
+    .modelos { background-color: #81d4fa; }
+    .regresion { background-color: #e57373; }
+    .series { background-color: #9575cd; }
+    .supervisado { background-color: #ffccbc; }
+    .gestion { background-color: #f06292; }
+    .almuerzo { background-color: #ffb74d; }
+    .ayuda { background-color: #dcedc8; }
+    .estudio { background-color: #fff59d; }
+    .otras { background-color: #aed581; }
+    .ejercicios { background-color: #ef5350; color: white; }
+    .libre { background-color: #f48fb1; }
+    .trabajo { background-color: #ef9a9a; }
+    .aseo { background-color: #bcaaa4; }
+    .ropa { background-color: #ce93d8; }
+    .camino { background-color: #bcaaa4; }
+    .cena { background-color: #ffb74d; }
+    .dormir { background-color: #d1c4e9; }
+  </style>
+</head>
+<body>
+  <h1>Mi Horario Semanal</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sábado</th>
+        <th>Domingo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+  <td>5:00 - 5:30</td>
+  <td class="levantarse" colspan="5">Me levanto y preparación diaria</td>
+  <td class="dormir">Dormir</td>
+  <td class="levantarse">Me levanto y preparación diaria</td>
+</tr>
+
+      <tr><td>5:40-6:00</td><td class="desayuno" colspan="5">Desayuno</td><td class="levantarse">Me levanto y preparación diaria</td><td class="desayuno">Desayuno</td></tr>
+      <tr><td>6:60 -6:40</td><td class="clases" colspan="5">Salir a clases</td><td  class="desayuno">Desayuno</td><td class="camino">Camino al trabajo</td></tr>
+      <tr>
+      <tr>
+  <td>7:00</td>
+  <td class="gestion" rowspan="2">Gestión de Proyectos TICS</td>
+  <td class="gestion" rowspan="2">Gestión de proyectos TICS</td>
+  <td class="series" rowspan="3">Series de Tiempo</td>
+  <td class="supervisado" rowspan="2">Aprendizaje no supervisado</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  <td class="aseo" rowspan="2">Aseo de la casa</td>
+  <td class="trabajo">T</td>
+</tr>
+<tr>
+  <td>8:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="trabajo">R</td>
+</tr>
+    <tr>
+  <td>9:00</td>
+  <td class="redes" rowspan="2">Arquitectura de redes y protocolos</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  
+  <td class="redes" rowspan="2">Arquitectura de redes y protocolos</td>
+  <td class="supervisado" rowspan="3">Aprendizaje no supervisado</td>
+  <td class="otras" rowspan="2">Otras actividades</td>
+  <td class="trabajo">A</td>
+</tr>
+  <tr>
+  <td>10:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+    <td class="regresion" rowspan="3">Regresion lineal y no lineal</td>
+  <td class="trabajo">J</td>
+</tr>
+
+  <tr>
+  <td>11:00</td>
+  <td class="series" rowspan="2">Series de tiempo</td>
+  <td class="regresion" rowspan="2">Regresion lineal y no lineal</td>
+  <td class="modelos" rowspan="2">Modelos Lineales</td>
+  <td class="ropa" rowspan="2">Lavar ropa</td>
+  <td class="trabajo">O</td>
+</tr>
+  <tr>
+  <td>12:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+    <td class="gestion">Gestión de Proyectos TICS</td>
+  <td class="trabajo">T</td>
+</tr>      
+
+      <tr><td>13:30</td><td class="almuerzo" colspan="6">Almuerzo</td><td class="trabajo">R</td></tr>
+   <tr>
+  <td>14:00</td>
+  <td class="ayuda"rowspan="2">Ayudo a mamá</td>
+  <td class="otras"rowspan="4">Otras actividades</td>
+  <td class="estudio"rowspan="3">Estudio y tareas</td>
+  <td class="ayuda" rowspan="5">Ayudo a mamá</td>
+  <td class="ayuda" rowspan="2">Ayudo a mamá</td>
+  
+  <td class="otras" rowspan="3">Otras actividades</td>
+  <td class="trabajo">A</td>
+</tr>
+  <tr>
+  <td>15:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="trabajo">B</td>
+</tr>  
+
+  <td>16:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="libre">Libre</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">A</td>
+</tr>  
+
+  <td>17:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">J</td>
+</tr>  
+
+  <td>18:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="libre">Libre</td>
+  <td class="ejercicios">Ejercicios</td>
+  <td class="trabajo">O</td>
+</tr>
+
+  <tr><td>19:30</td><td class="cena" colspan="6">Cena</td><td class="trabajo">T</td></tr>
+
+  <td>20:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="libre">Libre</td>
+  <td class="ejercicios">Ejercicios</td>
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="libre"rowspan="3">Libre</td>
+  <td class="trabajo">R</td>
+</tr>  
+
+  <td>21:00</td>
+  <!-- Estas columnas ya están cubiertas por rowspan, así que no se repiten -->
+  <td class="otras"rowspan="2">Otras actividades</td>
+  <td class="estudio"rowspan="2">Estudio y tareas</td>
+  <td class="trabajo">A</td>
+</tr>
+
+      <tr><td>22:00</td><td class="ejercicios">Ejercicios</td><td class="otras">Otras actividades</td><td class="camino">Camino a casa</td><td class="trabajo">B</td></tr>
+      <tr><td>23:00</td><td class="dormir" colspan="7">Aseo personal y dormir</td></tr>
+    </tbody>
+  </table>
+  <script>
+  const stickers = {
+    "levantarse": "⏰",
+    "desayuno": "🍞",
+    "clases": "🎓",
+    "proyectos": "🛠️",
+    "redes": "🌐",
+    "modelos": "📊",
+    "regresion": "📊",
+    "series": "⏱️",
+    "supervisado": "🤖",
+    "no-supervisado": "🤖",
+    "gestion": "🎓",
+    "almuerzo": "🍽️",
+    "cena": "🍽️",
+    "ayuda": "❤️",
+    "estudio": "📚",
+    "otras": "🔧",
+    "ejercicios": "🏋️",
+    "libre": "🧘",
+    "trabajo": "💼",
+    "aseo": "🧹",
+    "ropa": "🧺",
+    "camino": "🚶",
+    "dormir": "😴"
+  };
+
+  document.querySelectorAll("td").forEach(td => {
+    for (const cls in stickers) {
+      if (td.classList.contains(cls)) {
+        td.innerHTML = `${stickers[cls]} ${td.innerHTML}`;
+      }
+    }
+  });
+  // Pide permiso de notificación y registra el Service Worker
+  if ('Notification' in window && navigator.serviceWorker) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        navigator.serviceWorker.register("sw.js");
+      }
+    });
+  }
+
+  // Notificación automática cada minuto si coincide hora y actividad
+  const actividades = [
+    { hora: "05:00", mensaje: "⏰ ¡Levántate y prepárate!" },
+    { hora: "05:40", mensaje: "🍞 Es hora del desayuno" },
+    { hora: "07:00", mensaje: "🎓 Inicia Gestión de Proyectos TICS" },
+    { hora: "13:30", mensaje: "🍽️ Almuerzo" },
+    { hora: "19:30", mensaje: "🍽️ Hora de la cena" },
+    { hora: "23:00", mensaje: "😴 Aseo personal y a dormir" }
+  ];
+
+  function checarHorario() {
+    const ahora = new Date();
+    const horaActual = ahora.toTimeString().substring(0, 5); // Formato HH:MM
+    actividades.forEach(act => {
+      if (act.hora === horaActual) {
+        navigator.serviceWorker.getRegistration().then(reg => {
+          if (reg) {
+            reg.showNotification("Recordatorio", {
+              body: act.mensaje,
+              icon: "https://cdn-icons-png.flaticon.com/512/847/847969.png"
+            });
+          }
+        });
+      }
+    });
+  }
+
+  setInterval(checarHorario, 60000); // Revisa cada minuto
+</script>
+
+</body>
+</html>
+>>>>>>> 94280321b640dcff7e9907f7f090f0089c123c88
